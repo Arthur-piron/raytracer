@@ -1,0 +1,21 @@
+# Build output
+build/
+plugins/
+*.so
+*.o
+/raytracer
+
+# Renders (keep README images under docs/images/)
+*.ppm
+/*.png
+
+# Large 3D models, not versioned
+DeLorean/
+*.obj
+*.mtl
+
+# Local files
+.vscode/
+RAYTRACER_DETAILED_REPORT.md
+.env
+.env.*
